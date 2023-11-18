@@ -239,3 +239,13 @@ button{
 button:hover{
     background-color: var(--orange-7);
 }
+
+@media only screen 
+and (max-device-width:480px)
+{
+    .container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    
+}
