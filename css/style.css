@@ -53,11 +53,11 @@ section.left{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    min-width: 398px;
+    /* min-width: 398px; */
 }
 
 .left-wrapper{
-    width: 398px;
+    /* width: 398px; */
     text-align: center;
 }
 
@@ -100,6 +100,8 @@ section.left{
     margin-right: .5em;
     transform: translateY(-2px);
 }
+
+/* right */
 
 section.right{
     display: flex;
@@ -241,22 +243,67 @@ button:hover{
 }
 
 @media only screen 
+and (min-device-width:0px)
 and (max-device-width:480px)
 {
     .container{
         display:flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin:0;
+        padding:0;
+        min-width: 375px;
+    }
+
+    section.left{
+        width: auto;
+        min-width: 375px;
+        height:auto;
+        margin:0;
+        padding:2.5em 25px 2.5em 25px;
+        
     }
 
     .left-wrapper{
-        margin: 0;
+        /* width: 100%; */
+        /* margin:0 1em; */
+        padding:0;
     }
+
+    .benefit{
+       /* margin:auto; */
+    }
+    
+    .trustpilot{
+        margin:auto;
+    }
+    
+    .star{
+        margin:auto;
+    }
+
     section.right {
-        width:100%;
+        width: 100%;
+        height:auto;
+        /* margin:0;
+        padding:0; */
     }
     .right-wrapper{
         width: 100%;
+        margin:0;
         padding:0;
     } 
+
+    .social-login{
+        
+    }
     
+    .line1{
+        
+    }
+
+    .promo input{
+        
+        width:auto;
+    }
+        
 }
