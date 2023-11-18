@@ -247,5 +247,16 @@ and (max-device-width:480px)
         display:flex;
         flex-direction: column-reverse;
     }
+
+    .left-wrapper{
+        margin: 0;
+    }
+    section.right {
+        width:100%;
+    }
+    .right-wrapper{
+        width: 100%;
+        padding:0;
+    } 
     
 }
