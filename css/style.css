@@ -248,7 +248,7 @@ and (max-device-width:480px)
 {
     .container{
         display:flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin:0;
         padding:0;
         /* min-width: 375px; */
@@ -258,22 +258,22 @@ and (max-device-width:480px)
         width: fit-content;
         height:auto;
         margin:0;
-        padding:2.5em 25px 2.5em 25px;
+        padding:2.5em 15px;
         
     }
 
     .left-wrapper{
-        /* width: 100%; */
-        /* margin:0 1em; */
+        /* width: 100%;
+        margin:0 1em; */
         padding:0;
     }
 
     .benefit{
-       /* margin:auto; */
+        /* margin:auto; */
     }
     
     .trustpilot{
-        margin:auto;
+        /* margin:auto; */
     }
     
     .star{
