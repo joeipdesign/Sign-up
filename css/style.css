@@ -251,12 +251,11 @@ and (max-device-width:480px)
         flex-direction: column;
         margin:0;
         padding:0;
-        min-width: 375px;
+        /* min-width: 375px; */
     }
 
     section.left{
-        width: auto;
-        min-width: 375px;
+        width: fit-content;
         height:auto;
         margin:0;
         padding:2.5em 25px 2.5em 25px;
