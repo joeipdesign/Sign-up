@@ -267,13 +267,13 @@ and (max-device-width:1200px)
     }
 
     .left-wrapper{
-        width: 100%;
+        width: fit-content;
         margin:0 1em;
         padding:0;
     }
 
-    .benefit ul {
-        margin:auto;
+    .benefit{
+        margin:0 auto 5em auto;
     }
 
     section.right {
@@ -281,10 +281,8 @@ and (max-device-width:1200px)
         height:auto;
         margin:auto;
         padding:2.5em 15px;
-        
-        /* margin:0;
-        padding:0; */
     }
+
     .right-wrapper{
         width: 100%;
         padding:0;
