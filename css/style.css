@@ -219,7 +219,7 @@ input[type=text], input[type=password]{
     padding: 1em;
     font-size: 1rem;
     color: var(--grey-6);
-    background-image: url('/images/down-arrow.svg'); /* Custom dropdown arrow */
+    background-image: url('../images/down-arrow.svg'); /* Custom dropdown arrow */
     background-repeat: no-repeat;
     background-position: right 10px center;
 }
