@@ -281,14 +281,15 @@ and (max-device-width:480px)
     }
 
     section.right {
-        width: 100%;
+        width: fit-content;
         height:auto;
+        margin:0;
+        padding:2.5em 15px;
         /* margin:0;
         padding:0; */
     }
     .right-wrapper{
         width: 100%;
-        margin:0;
         padding:0;
     } 
 
@@ -296,13 +297,29 @@ and (max-device-width:480px)
         
     }
     
-    .line1{
-        
-    }
-
     .promo input{
         
         width:auto;
     }
+
+    .line1, .line2{
+        display: block;
+    }
         
+    input[type=text], input[type=password]{
+        /* margin: 0 15px 1.5em 0; */
+        width: 90%;
+        padding-right: 15px;
+    }
+
+    .promo{
+        display: inline-block;
+        text-align: left;
+    }
+
+    .promo input{
+        margin: 0 0 1.5em 0.5em;
+        width: fit-content;
+    }
+
 }
