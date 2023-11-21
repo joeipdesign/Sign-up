@@ -209,6 +209,7 @@ input[type=text], input[type=password]{
 
 .sign-up-form select{
     -webkit-appearance: none;
+    height: 55px;
     display: block;
     margin: 0 0 1.5em 0;
     background-color: var(--grey-1);
@@ -217,6 +218,7 @@ input[type=text], input[type=password]{
     border-radius: .5em;
     padding: 1em;
     font-size: 1rem;
+    color: var(--grey-6);
 }
 
 .promo input{
