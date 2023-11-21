@@ -17,18 +17,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    line-height: 1.25rem;
 }
 
 h1{
     font-size: 2.5rem;
+    line-height: normal;
 }
 
 h2{
     font-size: 2rem;
+    line-height: normal;
 }
 
 h3{
     font-size: 1.5rem;
+    line-height: normal;
 }
 
 a{
@@ -243,6 +247,53 @@ button:hover{
 }
 
 @media only screen 
+and (min-device-width:481px)
+and (max-device-width:1200px)
+{
+    .container{
+        display:flex;
+        flex-direction: column-reverse;
+        margin:0;
+        padding:0;
+        /* min-width: 375px; */
+    }
+
+    section.left{
+        width: 100%;
+        height:auto;
+        margin:0;
+        padding:2.5em 15px;
+        
+    }
+
+    .left-wrapper{
+        width: 100%;
+        margin:0 1em;
+        padding:0;
+    }
+
+    .benefit ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.right {
+        width: 100%;
+        height:auto;
+        margin:0;
+        padding:2.5em 15px;
+        /* margin:0;
+        padding:0; */
+    }
+    .right-wrapper{
+        width: 100%;
+        padding:0;
+    } 
+
+}
+
+@media only screen 
 and (min-device-width:0px)
 and (max-device-width:480px)
 {
@@ -320,6 +371,11 @@ and (max-device-width:480px)
     .promo input{
         margin: 0 0 1.5em 0.5em;
         width: fit-content;
+    }
+
+    .agree-tnc
+    {
+        text-align: left;
     }
 
 }
